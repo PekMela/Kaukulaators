@@ -1,6 +1,6 @@
 .cool {
     background-color: #e0e0e0;
-    width: 100%;
+    width: 60px;
     display: none;
     margin-left: 4%;
     padding: 4px;
@@ -11,7 +11,7 @@
 
 .coool {
     background-color: #f1f5f0;
-    width: 100%;
+    width: 60px;
     display: none;
     padding: 4px;
     border-radius: 5px;
@@ -47,6 +47,7 @@ button {
     border-radius: 5px;
     background-color: #f1f5f0;
     font-weight: bold;
+    width: 80px;
 }
 
 button:hover{
@@ -89,6 +90,8 @@ h2 {
 }
 
 body {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,3 +227,24 @@ input[type="radio"]:focus {
     justify-content: flex-start;
     margin-right: 90%;
 }
+
+@media only screen and (max-width: 650px) {
+    .keke{
+        width: 300px;
+    }
+    .border{
+        width: 300px;
+    }
+    .lol{
+        width: 80px;
+    }
+    .popo{
+        width: 300px;
+    }
+    .kilo{
+        width: 90px;
+    }
+    .bad{
+        width: 80px;
+    }
+  }

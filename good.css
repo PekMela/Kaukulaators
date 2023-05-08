@@ -18,6 +18,10 @@
     margin-left: 2%;
 }
 
+.kilo{
+    width: 90px;
+}
+
 h1 {
     text-align: center;
     padding: 2%;
@@ -33,6 +37,8 @@ button {
     background-color: #05050e;
     color: #fff;
     font-weight: bold;
+    width: 110px;
+    text-align: center;
 }
 
 button:hover{
@@ -67,6 +73,8 @@ h2 {
 }
 
 body {
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,3 +201,22 @@ input[type="radio"]:focus {
     justify-content: flex-start;
     margin-right: 90%;
 }
+
+@media only screen and (max-width: 650px) {
+    .keke{
+        width: 300px;
+    }
+    .border{
+        width: 300px;
+    }
+    .lol{
+        width: 80px;
+    }
+    .popo{
+        width: 300px;
+    }
+    .kilo{
+        width: 120px;
+    }
+  }
+

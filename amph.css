@@ -109,6 +109,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     font-family: 'Konkhmer Sleokchher', cursive;
+    width: 100%;
+    height: 100%;
 }
 
 html {
