@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="lv">
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaukulātors</title>
+    <link rel="stylesheet" href="citur.css">
+    <script src="cita.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button type="button" class="back" onclick="window.location.href='index.html'"> 🞀 Atpakaļ</button>
+    <div class="border">
+        <div class="keke">
+            <h1>Episožu kaukulātors</h1>
+            <div class="keko">
+                <div class="form__group field">
+                    <input type="text" placeholder="Episožu skaits" name="name" id='name' required />
+                  </div>
+                <div>
+                    <span class="hovertext" data-hover="Ievadiet vidējo episožu ilgumu">
+                            <input type="text" id="texti" class="text">
+                        </span>
+                        <select name="minn" id="minn">
+                            <option value="0">Laiks</option>
+                            <option value="1">min</option>
+                            <option value="2">h</option>
+                        </select>
+                </div>
+            </div>
+            <div class="keko">
+                <h2>
+                    Ātrums
+                </h2>
+                <div class="lol">
+                    <div class="ikk">
+                        <input type="radio" name="atrum1" id="atrum1" value="1">
+                        <label for="atrum1">1x</label>
+                    </div>
+                    <div class="ikk">
+                        <input type="radio" name="atrum1" id="atrum2" value="1.25">
+                        <label for="atrum2">1.25x</label>
+                    </div>
+                    <div class="ikk">
+                        <input type="radio" name="atrum1" id="atrum3" value="1.5">
+                        <label for="atrum3">1.5x</label>
+                    </div>
+                    <div class="ikk">
+                        <input type="radio" name="atrum1" id="atrum4" value="1.75">
+                        <label for="atrum4">1.75x</label>
+                    </div>
+                    <div class="ikk">
+                        <input type="radio" name="atrum1" id="atrum5" value="2">
+                        <label for="atrum5">2x</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="popo">
+        <div class="kelo">
+            <button type="button" onclick="rekinaa()" id="rekina">Rēķināt</button>
+        </div>
+        <table class="poop">
+            <tr>
+                <td class="td">
+                    <h3>Rezūltāts:</h3>
+                </td>
+                <td class="td">
+                    <span id="min">0</span> min
+                </td>
+                <td class="td">
+                    <span id="ho">0</span> h
+                </td>
+                <td class="td">
+                    <span id="die">0</span> dienas
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    </div>
+</body>
+
+</html>

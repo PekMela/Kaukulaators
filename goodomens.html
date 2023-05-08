@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaukulātors</title>
+    <link rel="stylesheet" href="good.css">
+    <script src="javvaa.js"></script>
+    <link rel="icon" href="imge.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button type="button" class="back"  onclick="window.location.href='index.html'"> 🞀 Atpakaļ</button>
+    <div class="border">
+        <div class="keke">
+            <h1>Good Omens episožu kaukulātors</h1>
+            <div class="keko">
+                <form name="myform" action="checkboxes.asp" method="post">
+                    <div class="row">
+                        <h2>Episodes</h2>
+                        <div class="ikk">
+                            <input type="checkbox" name="Check_alu" value="yes" onClick="Checck(document.myform.good)">
+                            <label for="Check_alu"></label>
+                            <button id="toggle" type="button" onclick="btn()" class="bad">Sezona 1 ▼</button>
+                        </div>
+
+                        <div id="third" class="cool">
+                            <div class="ikk">
+                                <input type="checkbox" id="good1" name="good" value="51">
+                                <label for="good1">Episode 1</label>
+                            </div>
+                            <div class="ikk">
+                                <input type="checkbox" id="good2" name="good" value="51">
+                                <label for="good2">Episode 2</label>
+                            </div>
+                            <div class="ikk">
+                                <input type="checkbox" id="good3" name="good" value="51">
+                                <label for="good3">Episode 3</label>
+                            </div>
+                            <div class="ikk">
+                                <input type="checkbox" id="good4" name="good" value="51">
+                                <label for="good4">Episode 4</label>
+                            </div>
+                            <div class="ikk">
+                                <input type="checkbox" id="good5" name="good" value="51">
+                                <label for="good5">Episode 5</label>
+                            </div>
+                            <div class="ikk">
+                                <input type="checkbox" id="good6" name="good" value="51">
+                                <label for="good6">Episode 6</label>
+                            </div>
+
+                        </div>
+                        <div>
+                            <h2>
+                                Ātrums
+                            </h2>
+                            <div class="lol">
+                                <div class="ikk">
+                                    <input type="radio" name="atrum1" id="atrum1" value="1">
+                                    <label for="atrum1">1x</label>
+                                </div>
+                                <div class="ikk">
+                                    <input type="radio" name="atrum1" id="atrum2" value="1.25">
+                                    <label for="atrum2">1.25x</label>
+                                </div>
+                                <div class="ikk">
+                                    <input type="radio" name="atrum1" id="atrum3" value="1.5">
+                                    <label for="atrum3">1.5x</label>
+                                </div>
+                                <div class="ikk">
+                                    <input type="radio" name="atrum1" id="atrum4" value="1.75">
+                                    <label for="atrum4">1.75x</label>
+                                </div>
+                                <div class="ikk">
+                                    <input type="radio" name="atrum1" id="atrum5" value="2">
+                                    <label for="atrum5">2x</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="popo">
+            <div class="kelo">
+                <button type="button" onclick="rekinna()" id="rekina">
+                    Rēķināt </button>
+            </div>
+            <table class="poop">
+                <tr>
+                    <td>
+                        <h3>Rezūltāts:</h3>
+                    </td>
+                    <td>
+                        <span id="min">0</span> min
+                    </td>
+                    <td>
+                        <span id="ho">0</span> h
+                    </td>
+                    <td>
+                        <span id="die">0</span> dienas
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
