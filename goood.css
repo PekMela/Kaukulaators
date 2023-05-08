@@ -227,24 +227,3 @@ input[type="radio"]:focus {
     justify-content: flex-start;
     margin-right: 90%;
 }
-
-@media only screen and (max-width: 650px) {
-    .keke{
-        width: 300px;
-    }
-    .border{
-        width: 300px;
-    }
-    .lol{
-        width: 80px;
-    }
-    .popo{
-        width: 300px;
-    }
-    .kilo{
-        width: 90px;
-    }
-    .bad{
-        width: 80px;
-    }
-  }
