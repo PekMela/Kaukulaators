@@ -183,3 +183,32 @@ input[type="radio"]:focus {
     width: 34%;
 }
 
+@media only screen and (max-width: 400px) {
+    body{
+        width: 100%;
+    }
+    .keke{
+        width: 100%;
+    }
+    .popo{
+        width: 100%;
+    }
+    .border{
+        width: 100%;
+    }
+    .back{
+        margin-right: 0%;
+    }
+    .cool{
+        width: 120%;
+    }
+    .coool{
+        width: 120%;
+    }
+    .lol{
+        width: 90px;
+    }
+    .kelo{
+        width: 100%;
+    }
+  }
