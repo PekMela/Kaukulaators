@@ -230,6 +230,7 @@ input[type="radio"]:focus {
 @media only screen and (max-width: 400px) {
     body{
         width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .keke{
         width: 100%;
